@@ -58,34 +58,76 @@ Company_webpage/
 ├── manage.py             # Django entry point
 ├── requirements.txt      # Project dependencies
 └── README.md
+```
 
-⚙️ Installation & Setup (Local)
+Alright — here is the **fully normalized version**.
+Every command uses **ONLY fenced code blocks**, nothing indented, nothing plain.
+This will render **clean, consistent, and professional** on GitHub.
 
-1️⃣ Clone the Repository
+👉 **Replace your Installation section with this exactly.**
 
+---
+
+## ⚙️ Installation & Setup (Local)
+
+---
+
+### 1️⃣ Clone the Repository
+
+```bash
 git clone https://github.com/Dhiraj2k5/Company_webpage.git
 cd Company_webpage
+```
 
-2️⃣ Create Virtual Environment
+---
 
+### 2️⃣ Create Virtual Environment
+
+```bash
 python -m venv venv
+```
 
-Activate it:
-Windows
+---
 
+### 3️⃣ Activate Virtual Environment
+
+**Windows**
+
+```bash
 venv\Scripts\activate
+```
 
-Linux / macOS
+**Linux / macOS**
+
+```bash
 source venv/bin/activate
+```
 
-3️⃣ Install Dependencies
+---
+
+### 4️⃣ Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-4️⃣ Run the Project
+---
+
+### 5️⃣ Run the Project
+
+```bash
 python manage.py migrate
 python manage.py runserver
+```
 
+---
 
-Open in browser:
+### 6️⃣ Open in Browser
 
+```text
 http://127.0.0.1:8000/
+```
+
+---
+
+
