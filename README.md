@@ -41,7 +41,7 @@ The project is **live deployed on PythonAnywhere**, demonstrating real-world hos
 - ✅ Proper static & staticfiles handling
 - ✅ Django app-based architecture
 - ✅ Deployed using WSGI on PythonAnywhere
-- ✅ Dependency management via `requirements.txt`
+- ✅ Dependency management via 
 
 ---
 
@@ -59,12 +59,6 @@ Company_webpage/
 ├── requirements.txt      # Project dependencies
 └── README.md
 ```
-
-Alright — here is the **fully normalized version**.
-Every command uses **ONLY fenced code blocks**, nothing indented, nothing plain.
-This will render **clean, consistent, and professional** on GitHub.
-
-👉 **Replace your Installation section with this exactly.**
 
 ---
 
